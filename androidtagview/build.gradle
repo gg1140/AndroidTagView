@@ -22,4 +22,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation 'androidx.appcompat:appcompat:1.0.1'
 }
-apply from: 'https://raw.githubusercontent.com/whilu/AndroidPublishLibrary/master/project/library/bintray_publish.gradle'
+
+// Not necessary unless for publishing to jcenter
+//apply from: 'https://raw.githubusercontent.com/whilu/AndroidPublishLibrary/master/project/library/bintray_publish.gradle'
